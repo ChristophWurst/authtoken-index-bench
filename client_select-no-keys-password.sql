@@ -1,0 +1,10 @@
+SELECT id, uid, login_name, name, token, type, remember, last_activity, last_check, scope, expires, version, password_invalid, password_hash FROM oc_authtoken WHERE id = FLOOR(RAND()*100000);
+UPDATE oc_authtoken SET last_activity=UNIX_TIMESTAMP() WHERE id=FLOOR(RAND()*100000);
+SELECT * FROM oc_authtoken WHERE id = FLOOR(RAND()*100000);
+SELECT * FROM oc_authtoken WHERE id = FLOOR(RAND()*100000);
+SELECT * FROM oc_authtoken WHERE id = FLOOR(RAND()*100000);
+SELECT * FROM oc_authtoken WHERE id = FLOOR(RAND()*100000);
+SELECT * FROM oc_authtoken WHERE id = FLOOR(RAND()*100000);
+SELECT * FROM oc_authtoken WHERE id = FLOOR(RAND()*100000);
+SELECT * FROM oc_authtoken WHERE id = FLOOR(RAND()*100000);
+SELECT * FROM oc_authtoken WHERE id = FLOOR(RAND()*100000);
